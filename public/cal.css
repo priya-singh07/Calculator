@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+    background: linear-gradient(to left,#EB2188,#080A52);
+}
+.calci{
+
+    width: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    transition: 0.25px;
+    text-align: center;
+}
+#display{
+    border: none;
+    background: white;
+    border-radius: 10px;
+    width: 230;
+    font-size: 20;
+    font-family: sans-serif;
+    font-weight: 300;
+    height: 50;
+    margin: auto;
+    border: 2px solid white;
+    color: black;
+}
+.btnDesign{
+    width: 50;
+    height: 50;
+    padding-top: -1;
+    background: white;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 20px;
+    margin: 1.5;
+}
+.operatorDesign{
+    width: 50;
+    height: 50;
+    padding-top: -1;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20;
+    background: white;
+    font-weight: 300;
+    border-radius: 20px;
+    margin: 1.5;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.operatorDesign:hover{
+    background: skyblue;
+}
+#zero{
+    width: 110;
+    height: 50;
+    padding-top: -1;
+    background: white;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 20px;
+    margin: 1.5;
+}
+h1{
+    color: white;
+    margin-left: 100px;
+    margin-top: 300px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700px;
+    text-decoration: underline;
+    font-size: 50;
+}
+h2{
+    color: white;
+    margin-left: 400px;
+    margin-top: -1px;
+    font-family: sans-serif;
+    font-weight: 100px;
+    font-size: 30;
+
+}
